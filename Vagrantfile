@@ -5,7 +5,7 @@ settings = YAML.load_file File.dirname(__FILE__) + '/settings.yml'
 
 Vagrant.configure("2") do |config|
   config.vm.box = "tb7"
-  config.vm.box_url = "\\\\172.17.15.173\\share\\tb7.box"
+  config.vm.box_url = "D:\\forVagrant\\tb7.box"
   config.vm.box_check_update = false
   config.vm.hostname = "etu6.org"
   config.vm.define "etu6.org" do |tb|

@@ -4,8 +4,8 @@
  2. VirtualBox - 5.1.32 版本/先前使用的是 5.1.18 版本
  3. Vagrant - 1.8.5 版本， 安装完成后需要注销/重启
  
-`\\172.17.15.173\share` 目录里包含以上软件，须保证能在局域网访问该目录，安装开发环境依赖该目录里打包好的虚拟机 `tb7.box`， 如果 IP 或目录变更，需要更改
-http://git.we2tu.com/zhangxuepei/projectinit/blob/master/Vagrantfile 
+`D:\forVagrant\tb7.box` 目录里包含以上软件，须保证能在局域网访问该目录中的tb7.box，安装开发环境依赖该目录里打包好的虚拟机 `tb7.box`， 如果 IP 或目录变更，需要更改
+https://github.com/bkzxp/projectinit/blob/master/Vagrantfile 
 里相应的 IP 和目录，并提交推送到本仓库，另外，仓库须支持从 url 公开访问。
 
 # 初始化开发环境
@@ -15,7 +15,7 @@ http://git.we2tu.com/zhangxuepei/projectinit/blob/master/Vagrantfile
 在任意文件夹空白处右击，选择 `Git Bash`，复制以下命令并执行：
 
 ```sh
-sh -c "$(curl -fsSL http://git.we2tu.com/zhangxuepei/projectinit/raw/master/sh/init.sh)"
+sh -c "$(curl -fsSL https://github.com/bkzxp/projectinit/raw/master/sh/init.sh)"
 ```
 
 根据提示输入`工作目录`，如果目录是 `D:/www` ，请输入 `/d/www` 。
