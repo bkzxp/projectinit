@@ -4,7 +4,7 @@
  2. VirtualBox - 5.1.32 版本/先前使用的是 5.1.18 版本
  3. Vagrant - 1.8.5 版本， 安装完成后需要注销/重启
  
-`D:\forVagrant\tb7.box` 目录里包含以上软件，须保证能在局域网访问该目录中的tb7.box，安装开发环境依赖该目录里打包好的虚拟机 `tb7.box`， 如果 IP 或目录变更，需要更改
+`D:\forVagrant\tb7.box` 目录里包含以上软件，~~须保证能在局域网访问该目录中的tb7.box，~~安装开发环境依赖该目录里打包好的虚拟机 `tb7.box`， 如果 IP 或目录变更，需要更改
 https://github.com/bkzxp/projectinit/blob/master/Vagrantfile 
 里相应的 IP 和目录，并提交推送到本仓库，另外，仓库须支持从 url 公开访问。
 
